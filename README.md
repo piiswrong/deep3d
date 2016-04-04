@@ -1,6 +1,6 @@
 # Deep3D: Automatic 2D-to-3D Video Conversion with CNNs
 
-![alt text](img/teaser.png)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/teaser.png)
 
 ## Motivation
 Since the debut of Avatar in 2008, 3D movies has rapidly developed into mainstream technology.
@@ -16,10 +16,10 @@ Wouldn't it be cool if 2D-to-3D conversion can be done automatically, if you can
 ## Teaser
 In case you are already getting sleepy, here are some cool 3D images converted from 2D ones by Deep3D. Normally you need 3D glasses or VR display to watch 3D images, but since most readers won't have these we show the 3D images as GIFs.
 
-![alt text](img/1_GIF.gif) ![alt text](img/2_GIF.gif)
-![alt text](img/3_GIF.gif) ![alt text](img/4_GIF.gif)
-![alt text](img/5_GIF.gif) ![alt text](img/6_GIF.gif)
-![alt text](img/7_GIF.gif) ![alt text](img/8_GIF.gif)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/1_GIF.gif) ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/2_GIF.gif)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/3_GIF.gif) ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/4_GIF.gif)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/5_GIF.gif) ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/6_GIF.gif)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/7_GIF.gif) ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/8_GIF.gif)
 
 ## Method
 3D imagery has two views, one for the left eye and the other for the right.
@@ -34,19 +34,20 @@ Thus, instead of predicting an depth map and then use it to recreate the missing
 
 Here are some visualizations of our internal depth representation to help you understand how it works:
 
-![alt text](img0059.jpg)
-![alt text](img0112.jpg)
-![alt text](img0131.jpg)
-![alt text](img0163.jpg)
-![alt text](img0203.jpg)
-![alt text](img0266.jpg)
-![alt text](img0351.jpg)
-![alt text](img0459.jpg)
-![alt text](img0471.jpg)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/0059.jpg)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/0112.jpg)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/0131.jpg)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/0163.jpg)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/0203.jpg)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/0266.jpg)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/0351.jpg)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/0459.jpg)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/0471.jpg)
 
 Following each image, there are 4-by-3 maps of depth layers, ordered from near to far. You can see that objects that are near to you appear in the first depth maps and objects that are far away appear in the last ones. This shows that the internal depth representation is learning to infer depth from 2D images without been directly trained on it.
 
-
+## Code
+This work is done with [MXNet](https://github.com/dmlc/mxnet), a flexible and efficient deep learning package. The trained model and a prediction script is in deep3d.ipynb. We will release the code for training shortly.
 
 
 
