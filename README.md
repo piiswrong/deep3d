@@ -20,10 +20,10 @@ Wouldn't it be cool if 2D-to-3D conversion can be done automatically, if you can
 ## Teaser
 In case you are already getting sleepy, here are some cool 3D images converted from 2D ones by Deep3D. Normally you need 3D glasses or VR display to watch 3D images, but since most readers won't have these we show the 3D images as GIFs.
 
-![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/1_GIF.gif) ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/2_GIF.gif)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/1_GIF.gif) ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/8_GIF.gif)
 ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/3_GIF.gif) ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/4_GIF.gif)
 ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/5_GIF.gif) ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/6_GIF.gif)
-![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/7_GIF.gif) ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/8_GIF.gif)
+![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/7_GIF.gif) ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/2_GIF.gif)
 
 ## Method
 3D imagery has two views, one for the left eye and the other for the right.
