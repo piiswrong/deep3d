@@ -1,5 +1,9 @@
 # Deep3D: Automatic 2D-to-3D Video Conversion with CNNs
 
+## How To Run
+To run this code. Please install MXNet following the official document.
+Then append EXTRA\_OPERATORS=path/to/deep3d/operators to path/to/mxnet/config.mk and recompile MXNet.
+
 ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/teaser.png)
 
 ## Motivation
