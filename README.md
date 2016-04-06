@@ -2,7 +2,7 @@
 
 ## How To Run
 To run this code. Please install MXNet following the official document.
-Then append EXTRA\_OPERATORS=path/to/deep3d/operators to path/to/mxnet/config.mk and recompile MXNet.
+Deep3D requires MXNet to be built with Cuda 7.0 and Cudnn 4 or above. Please open mxnet/config.mk and set USE_CUDA and USE_CUDNN to 1. Then, append EXTRA\_OPERATORS=path/to/deep3d/operators to path/to/mxnet/config.mk and recompile MXNet.
 
 ![alt text](https://raw.githubusercontent.com/piiswrong/deep3d/master/img/teaser.png)
 
