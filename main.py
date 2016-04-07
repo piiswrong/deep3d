@@ -40,5 +40,5 @@ right = np.clip(Y.squeeze().transpose((1,2,0)), 0, 255).astype(np.uint8)
 right = Image.fromarray(cv2.cvtColor(right, cv2.COLOR_BGR2RGB))
 left = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 output_file = args.output_folder + "/"+ str(int(time.time())) + ".gif"
-writeGif(output_file, [left, right], duration=0.8)
+writeGif(output_file, [left, right], duration=0.08)
 print(output_file)
