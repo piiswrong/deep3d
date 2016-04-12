@@ -54,8 +54,6 @@ def make_movie(model_path, ctx, source='test_idx', fname=None):
     lcap.open(fname+'_l.mkv', cv2.VideoWriter_fourcc(*'X264'), 24, base_shape)
     pcap_ana.open(fname+'_ana_p.mkv', cv2.VideoWriter_fourcc(*'X264'), 24, base_shape)
     pcap_sbs.open(fname+'_sbs_p.mkv', cv2.VideoWriter_fourcc(*'X264'), 24, base_shape)
-    ycap_ana.open(fname+'_ana_y.mkv', cv2.VideoWriter_fourcc(*'X264'), 24, base_shape)
-    ycap_sbs.open(fname+'_sbs_y.mkv', cv2.VideoWriter_fourcc(*'X264'), 24, base_shape)
 
 
     data_names = [x[0] for x in test_data.provide_data]
