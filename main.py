@@ -20,6 +20,7 @@ ap.add_argument("-j", "--json",default=False,  help="upload images")
 ap.add_argument("-o", "--output_folder", default="./", help="output folder")
 args = ap.parse_args()
 param_path = '/tmp/deep3d-0050.params'
+junk = subprocess.check_output(["cp", 'deep3d-symbol.json', '/tmp/'])
 if not os.path.exists(param_path):
       urllib.urlretrieve('http://homes.cs.washington.edu/~jxie/download/deep3d-0050.params', param_path)
       model = mx.model.FeedForward.load('/tmp/deep3d', 50, mx.gpu(0))
